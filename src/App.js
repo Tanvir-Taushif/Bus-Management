@@ -13,12 +13,11 @@ function App() {
   return (
     <div className="App app-screen">
       <Header></Header>
-      {/*<Routes>
-        <Route path="/" element={<Homepage></Homepage>}/>
-        <Route path="/userLogin" element={<UserLogin></UserLogin>}/>
-        <Route path="/adminLogin" element={<AdminLogin></AdminLogin>}/>
-  </Routes>*/}
-      <SelectRoute></SelectRoute>
+        <Routes>
+          <Route path="/" element={<Homepage></Homepage>}/>
+          <Route path="/userLogin" element={<UserLogin></UserLogin>}/>
+          <Route path="/adminLogin" element={<AdminLogin></AdminLogin>}/>
+        </Routes>
       <Footer></Footer>
     </div>
   );
