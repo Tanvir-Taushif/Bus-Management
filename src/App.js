@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import { Routes,Route } from "react-router-dom";
 import UserLogin from "./Components/UserLogin/UserLogin";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
+import AdminDashBoard from "./Components/AdminDashboard/AdminDashBoard";
 
 
 function App() {
