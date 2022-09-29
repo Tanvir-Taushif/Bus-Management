@@ -1,27 +1,45 @@
+.front-img{
+    position: relative;
+}
+
+.fix-span{
+    color: white;
+}
+.writer{
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 20px;
+    color: rgb(12, 202, 12);
+    font-size: 5vw;
+    font-weight: 600;
+    text-shadow:2px 1px #1D1F37;
+}
+
 .home-cont{
     height: 100%;
 }
 
 .icon{
-    font-size: 75px;
+    font-size: 60px;
 }
 
 .icon-name{
-    font-size: 50px;
-    text-decoration: none;
-}
-
-.mod-link{
+    font-size: 40px;
     text-decoration: none;
 }
 
 .homeLogin{
     margin: 10%  0px;
-    height: 300px;
-    width: 80%;
+    height: 250px;
+    width: 60%;
     border-radius: 30px;
     border: none;
     box-shadow: 3px 3px 10px;
     background-color: lawngreen; 
     color: black;
+}
+
+.homeLogin:hover{
+    background-color: rgb(12, 202, 12);
 }

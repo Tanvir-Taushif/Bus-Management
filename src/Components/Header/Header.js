@@ -1,10 +1,17 @@
 import React from 'react';
 import "./Header.css";
+import {Routes, Route, useNavigate} from 'react-router-dom';
+
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const navigateHome = () => {
+    navigate('/');
+  }
     return (
         <div className='head'>
-          <div class=" container mb-3 text-center">
+          <div class=" container text-center">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
                    <div className='d-flex my-3'>
@@ -16,7 +23,7 @@ const Header = () => {
                    </div>
                 </div>
                 <div className="col-lg-6 col-sm-12">
-                    <h2 className='fw-bold mt-2 p-1'>Bus Management System</h2>
+                    <button onClick={navigateHome} className='name-text fw-bold mt-2 p-1'>Bus Management System</button>
                 </div>
             </div>
           </div>
