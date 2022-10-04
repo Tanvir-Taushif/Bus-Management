@@ -1,46 +1,48 @@
 import React from 'react';
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faCircleUser, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import "./UserLogin.css";
+import SocialLogin from '../SocialLogin/SocialLogin';
+import Login from '../Login/Login';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const UserLogin = () => {
+    const navigate=useNavigate();
+const userPrev=()=>{
+    navigate('/homepage');
+}
     return (
-        <div>
-            <div class="container">
-                <div class="row g-2">
-                    <div class="col-lg-6 col-sm-12">
+        <div className='userlogin-div '>
+            <div className='p-3'>
+                <div class="container overflow-hidden">
+                    <div class="row gy-5">
+                        <div class="col-sm-12 col-lg-6">
                         <div class="p-3">
-                         <div className='userdiv text-center'>
-                            <div className='dv'>
-                                <FontAwesomeIcon className='icon' icon={faUser}/>
-                                <h4>User Login</h4>
+                            <div className='us-div text-center'>
+                                <FontAwesomeIcon className='userIcon' icon={faUser}></FontAwesomeIcon>
+                                <h2>User Login</h2>
                             </div>
-                         </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
                         <div class="p-3">
-                           <div className="login">
-                           <div className='login1'>
-                             <form>
-                            
-                                <input type="email" placeholder=" Enter Your Email"></input>
-                                <br></br><br></br>
-                                <input type="password" placeholder="Password"></input>
-                                <br></br><br></br>
-                                <button className='button'>Login</button>
-                                <p>forgot password?</p>
-                                <br></br>
-                                <button className='button'>Continue with Google</button>
-                                <p>Don't have an account?</p>
-                                <br></br> 
-                                <button className='button'>Sign Up</button>
-                              </form>
-                             </div>
-                           </div>
+                            <button className='previous-button' onClick={userPrev}>
+                                        Previous
+                            </button>
+                            <div className='d-flex align-items-center justify-content-center'>
+                                <div className='userlogin-form' >
+                                    <div className='p-5'>
+                                        <Login></Login>
+                                        <SocialLogin></SocialLogin>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     );

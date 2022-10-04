@@ -1,32 +1,33 @@
-.icon{
+.userlogin-div{
+    height: 100vh;
+    background-image: url("/public/images/background.png");
+    background-size: cover;
+    background-position: fixed;
+}
+
+.us-div{
+    color: white;
+}
+
+.userIcon{
     font-size: 80px;
-    text-align: center;
-    color: black;
-}
-.login{
-background-color: forestgreen;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 10%;
-width: 70%;
+    color: #0C7F40;
 }
 
-.dv{
-    margin-top: 20%;
+.previous-button{
+    width: 100px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
-.userdiv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.previous-button:hover{
+    background-color: rgb(194, 5, 5);
+    color: white;
 }
-
-.login1{
-    padding: 10px;
-    margin: 10px;
-}
-
-.button{
-    width: 100%;
+@media screen and (max-width: 576px) {
+    .userlogin-div{
+        height: 100%;
+    }
 }

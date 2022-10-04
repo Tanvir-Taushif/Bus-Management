@@ -7,6 +7,7 @@ import { Routes,Route } from "react-router-dom";
 import UserLogin from "./Components/UserLogin/UserLogin";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
 import AdminDashBoard from "./Components/AdminDashboard/AdminDashBoard";
+import Register from "./Components/Register/Register";
 
 
 function App() {
@@ -15,8 +16,10 @@ function App() {
       <Header></Header>
         <Routes>
           <Route path="/" element={<Homepage></Homepage>}/>
+          <Route path="/homepage" element={<Homepage></Homepage>}/>
           <Route path="/userLogin" element={<UserLogin></UserLogin>}/>
           <Route path="/adminLogin" element={<AdminLogin></AdminLogin>}/>
+          <Route path="/register" element={<Register></Register>}/>
         </Routes>
       <Footer></Footer>
     </div>
