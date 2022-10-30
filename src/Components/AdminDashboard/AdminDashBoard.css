@@ -1,3 +1,16 @@
-.d1{
-background-color: forestgreen;
+.adminBoard{
+    height: 100vh;
+    background-image: url("/public/images/background.png");
+    background-size: cover;
+    background-position: fixed;
+}
+
+.adminButton{
+    width: 100%;
+    border: none;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgb(74, 237, 74);
+    font-weight: 600;
+    color: white;
 }

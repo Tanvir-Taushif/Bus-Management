@@ -1,15 +1,21 @@
+.adminLogin-div{
+    height: 100vh;
+    background-image: url("/public/images/background.png");
+    background-size: cover;
+    background-position: fixed;
+}
 .icon{
     font-size: 80px;
     text-align: center;
     color: black;
 }
 .login{
-background-color: forestgreen;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 10%;
-width: 70%;
+    display: flex;
+    background-color: forestgreen;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-radius: 10%;
 }
 
 .dv{
@@ -29,4 +35,7 @@ width: 70%;
 
 .button{
     width: 100%;
+}
+admin-prev{
+    
 }

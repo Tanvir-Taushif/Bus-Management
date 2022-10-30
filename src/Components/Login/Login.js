@@ -5,7 +5,7 @@ import './Login.css';
 const Login = () => {
     const navigate=useNavigate();
     const UserDashboard=()=>{
-        navigate('/userdashboard');
+        navigate('/userDashboard');
     }
     return (
         <div>
