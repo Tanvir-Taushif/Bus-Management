@@ -10,9 +10,9 @@ import { useNavigate } from 'react-router-dom';
 
 const UserLogin = () => {
     const navigate=useNavigate();
-const userPrev=()=>{
-    navigate('/homepage');
-}
+    const userPrev=()=>{
+        navigate('/homepage');
+    }
     return (
         <div className='userlogin-div '>
             <div className='p-3'>

@@ -8,6 +8,7 @@ import UserLogin from "./Components/UserLogin/UserLogin";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
 import AdminDashBoard from "./Components/AdminDashboard/AdminDashBoard";
 import Register from "./Components/Register/Register";
+import UserDashboard from "./Components/UserDashboard/UserDashboard";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/userLogin" element={<UserLogin></UserLogin>}/>
           <Route path="/adminLogin" element={<AdminLogin></AdminLogin>}/>
           <Route path="/register" element={<Register></Register>}/>
+          <Route path='/userdashboard'element={<UserDashboard></UserDashboard>}/>
         </Routes>
       <Footer></Footer>
     </div>
