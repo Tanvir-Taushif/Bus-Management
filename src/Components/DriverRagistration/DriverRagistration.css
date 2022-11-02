@@ -1,0 +1,22 @@
+.drivRegComponent{
+    height: 100vh;
+    background-image: url("/public/images/background.png");
+    background-size: cover;
+    background-position: fixed;
+}
+
+
+.regTab{
+    background-color: rgba(36, 249, 36, 0.296);
+    border-radius: 15px;
+}
+
+.addRegButton{
+    border: none;
+    background-color: rgba(27, 237, 27, 0.768);
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 15px;
+}

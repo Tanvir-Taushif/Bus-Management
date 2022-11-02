@@ -14,3 +14,7 @@
     font-weight: 600;
     color: white;
 }
+
+.adminButton:hover{
+    background-color: rgb(2, 188, 2);
+}

@@ -1,0 +1,39 @@
+.driverList{
+    height: 100vh;
+    background-image: url("/public/images/background.png");
+    background-size: cover;
+    background-position: fixed;
+}
+
+.driverTable{
+    background-color: rgba(27, 237, 27, 0.577);
+    border-radius: 10px;
+}
+
+.addButton{
+    border: none;
+    background-color: rgba(27, 237, 27, 0.768);
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.removeButton{
+    border: none;
+    background-color: red;
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.divTable{
+    width: 100%;
+}
+
+.divTable th, .divTable td{
+    border: 1px solid black;
+}

@@ -9,6 +9,8 @@ import AdminLogin from "./Components/AdminLogin/AdminLogin";
 import AdminDashBoard from "./Components/AdminDashboard/AdminDashBoard";
 import Register from "./Components/Register/Register";
 import UserDashboard from "./Components/UserDashboard/UserDashboard";
+import DriverList from "./Components/DriverList/DriverList";
+import DriverRagistration from "./Components/DriverRagistration/DriverRagistration";
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path="/register" element={<Register></Register>}/>
           <Route path='/userDashboard'element={<UserDashboard></UserDashboard>}/>
           <Route path='/adminDashboard'element={<AdminDashBoard></AdminDashBoard>}/>
+          <Route path='/driverList'element={<DriverList></DriverList>}/>
+          <Route path='/driverRagistration'element={<DriverRagistration></DriverRagistration>}/>
         </Routes>
       <Footer></Footer>
     </div>

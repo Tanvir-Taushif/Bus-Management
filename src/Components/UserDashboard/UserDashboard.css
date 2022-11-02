@@ -1,4 +1,28 @@
+.userboard{
+    height: 100vh;
+    background-image: url("/public/images/background.png");
+    background-size: cover;
+    background-position: fixed;
+}
+.userDashboardTitle{
+    color: white;
+}
+.table-cont{
+    background-color: rgba(64, 253, 64, 0.795);
+}
 .selectClass{
     width: 150px;
     background-color: lightgray;
+}
+.routeTable{
+    width: 100%;
+}
+.routeTable th,.routeTable td{
+   border: 1px solid black;
+}
+
+@media screen and (max-width: 450px) {
+    table{
+        font-size: 3vw;
+    }
 }
